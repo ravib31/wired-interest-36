@@ -13,7 +13,8 @@ userRouter.post("/register", async (req, res) => {
         age,
         key,
         location,
-        type
+        type,
+        order
     } = req.body
 
     const user = await UserModel.find({email})
@@ -28,7 +29,8 @@ userRouter.post("/register", async (req, res) => {
                     age,
                     key,
                     location,
-                    type
+                    type,
+                    order
                 })
                 await userDetail.save()
                 res.status(200).send({"msg": "User Registered"})
@@ -46,9 +48,9 @@ userRouter.post("/register", async (req, res) => {
 })
 
 userRouter.post("/login", async (req, res) => {
-    const {username, password, key} = req.body
+    const {username, password} = req.body
     try {
-        const user = await UserModel.findOne({username, key})
+        const user = await UserModel.findOne({username})
         console.log("user", user)
         if (user) {
             bcrypt.compare(password, user.password, async (err, result) => {
@@ -64,13 +66,12 @@ userRouter.post("/login", async (req, res) => {
                     })
 
                 } else {
-                    res.status(400).send({"msg": "Wrong Password"})
+                    res.status(401).send({"msg": "Wrong Password"})
 
                 }
             });
         } else {
-            res.status(400).send({"msg": "No User Found"})
-
+            res.status(404).send({"msg": "No User Found"})
         }
     } catch (error) {
         res.status(400).send({"msg": error.message})
