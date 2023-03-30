@@ -11,7 +11,6 @@ userRouter.post("/register", async (req, res) => {
         email,
         password,
         age,
-        key,
         location,
         type,
         order
@@ -27,7 +26,6 @@ userRouter.post("/register", async (req, res) => {
                     email,
                     password: hash,
                     age,
-                    key,
                     location,
                     type,
                     order

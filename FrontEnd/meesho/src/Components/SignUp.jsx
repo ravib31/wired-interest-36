@@ -16,40 +16,41 @@ import {
     Image,
     InputGroup,
     InputRightElement,
-    useToast
+    useToast,
+    HStack
 } from '@chakra-ui/react';
 
 import { FiEye, FiEyeOff } from "react-icons/fi"
 
-export default function SignIn() {
+
+export default function SignUp() {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
+    const [email, setEmail] = useState("")
+    const [age, setAge] = useState("")
+    const [location, setLocation] = useState("")
     const [show, setShow] = useState(false)
     const toast = useToast()
 
     const handleLogin = () => {
         const payload = {
-            username, password
+            username, password, email, age, location, type: "USER", order: { "OrderedItems": [] }
         }
-        axios.post(`http://localhost:4500/user/login`, payload)
-            .then((res) => {
-                localStorage.setItem("token", res.data.token); toast({
-                    title: 'Login Successful.',
-                    description: "We are redirecting you to the product page.",
-                    status: 'success',
-                    duration: 3000,
-                    isClosable: true,
-                })
-            })
-            .catch((error) => {
-                toast({
-                    title: 'Login UnSuccessful.',
-                    description: error.message,
-                    status: 'error',
-                    duration: 3000,
-                    isClosable: true,
-                })
-            })
+        axios.post(`http://localhost:4500/user/register`, payload)
+            .then((res) =>{  toast({
+                title: 'Register Successful.',
+                description: "We welcome to out MeeshoMart Community.",
+                status: 'success',
+                duration: 3000,
+                isClosable: true,
+            })})
+            .catch((error) => { console.log(error); toast({
+                title: 'Register UnSuccessful.',
+                description: error.message,
+                status: 'error',
+                duration: 3000,
+                isClosable: true,
+            })})
     }
 
     return (
@@ -72,7 +73,7 @@ export default function SignIn() {
                     p={8}>
                     <Stack align={'center'}>
                         <Image src='https://images.meesho.com/images/marketing/1661417516766.webp' alt='Meesho_Login' />
-                        <Heading fontSize={'2xl'}>Sign In to view your Profile</Heading>
+                        <Heading fontSize={'2xl'}>Sign Up to view your Profile</Heading>
                         <Text fontSize={'lg'}
                             color={'gray.600'}>
                             & to enjoy all of our
@@ -82,9 +83,13 @@ export default function SignIn() {
                         </Text>
                     </Stack>
                     <Stack spacing={4}>
-                        <FormControl id="email">
+                        <FormControl id="username">
                             <FormLabel>User Name</FormLabel>
                             <Input type="text" value={username} placeholder="Pls Enter Your Username" onChange={(e) => setUsername(e.target.value)} />
+                        </FormControl>
+                        <FormControl id="email">
+                            <FormLabel>Email</FormLabel>
+                            <Input type="email" value={email} placeholder="Pls Enter Your Email" onChange={(e) => setEmail(e.target.value)} />
                         </FormControl>
                         <FormControl id="password">
                             <FormLabel>Password</FormLabel>
@@ -97,6 +102,16 @@ export default function SignIn() {
                                 </InputRightElement>
                             </InputGroup>
                         </FormControl>
+                        <HStack>
+                            <FormControl id="age">
+                                <FormLabel>Age</FormLabel>
+                                <Input type="number" value={age} placeholder="Pls Enter Your Age" onChange={(e) => setAge(e.target.value)} />
+                            </FormControl>
+                            <FormControl id="location">
+                                <FormLabel>Location</FormLabel>
+                                <Input type="text" value={location} placeholder="Pls Enter Your Location" onChange={(e) => setLocation(e.target.value)} />
+                            </FormControl>
+                        </HStack>
                         <Stack spacing={10}>
                             <Stack direction={
                                 {
