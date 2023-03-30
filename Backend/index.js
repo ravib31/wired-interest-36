@@ -1,14 +1,23 @@
 const express = require("express");
+const dotenv = require("dotenv");
+dotenv.config()
+const { connection } = require("./config/db");
+const { productRouter } = require("./routes/products.routes");
 
 const app = express()
-const { connection } = require("./config/db")
+app.use(express.json()) //middleware
 
-app.listen(4500,async () => {
-    
+
+app.use("/products", productRouter)
+
+
+
+app.listen(process.env.PORT, async () => {    
     try {
        await connection
-       console.log("Server running on port 4500")
+       console.log("Connected to MongoDb");
     } catch (error) {
       console.log({"msg" :"Cannot to MongoDb"})  
     }
+    console.log(`Server running on port ${process.env.PORT}`)
 })
