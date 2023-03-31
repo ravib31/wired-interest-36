@@ -1,3 +1,11 @@
+import HomePage from './components/HomePage';
+import ProductPage from './components/ProductPage';
+
+function App() {
+  return (
+    <div>
+      <HomePage/>
+      {/* <ProductPage/> */}
 // import logo from './logo.svg';
 import "./App.css";
 import LargeWithAppLinksAndSocial from "./components/Footer";
