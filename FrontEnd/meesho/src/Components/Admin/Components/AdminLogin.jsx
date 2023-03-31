@@ -21,7 +21,7 @@ import {
 
 import { FiEye, FiEyeOff } from "react-icons/fi"
 
-export default function SignIn() {
+export default function AdminLogin() {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
     const [show, setShow] = useState(false)

@@ -1,0 +1,5 @@
+export const REQUEST = "REQUEST";
+export const FAILURE = "FAILURE";
+export const GET_USERS_SUCCESS = "GET_USERS_SUCCESS";
+export const GET_PRODUCT_SUCCESS = "GET_PRODUCT_SUCCESS";
+export const GET_ORDER_LIST = "GET_ORDER_LIST";

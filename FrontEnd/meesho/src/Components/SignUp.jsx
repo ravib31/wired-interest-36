@@ -39,14 +39,14 @@ export default function SignUp() {
         axios.post(`http://localhost:4500/user/register`, payload)
             .then((res) =>{  toast({
                 title: 'Register Successful.',
-                description: "We welcome to out MeeshoMart Community.",
+                description: "We welcome you to MeeshoMart Community.",
                 status: 'success',
                 duration: 3000,
                 isClosable: true,
             })})
-            .catch((error) => { console.log(error); toast({
+            .catch((error) => { toast({
                 title: 'Register UnSuccessful.',
-                description: error.message,
+                description: error.response.data,
                 status: 'error',
                 duration: 3000,
                 isClosable: true,
