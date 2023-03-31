@@ -59,10 +59,53 @@ export default function HomePage() {
       </div>
 
       <div className="section_2">
-        <div>
-          <hr />
-          <h1>Top Categories to choose from</h1>
-          <hr />
+        <div className="TopCategoriesTitle__SectionHeaderStyled-sc-1gxlcwj-0 hSGhxw">
+          <div className="sctn-line"></div>
+          <span>Top Categories to choose from</span>
+          <div className="sctn-line"></div>
+        </div>
+      </div>
+      <div className="section_2_layout">
+      <div className="section_2_Card">
+        <div className="section_2_woman_sotre">
+          <div>
+            <img
+              src="https://images.meesho.com/images/marketing/1680091497829.webp"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className="section_2_man_and_kids">
+          <div className="section_2_man_store">
+            <img src="https://images.meesho.com/images/marketing/1680091584937.webp" alt="" />
+          </div>
+          <div className="section_2_kids_store">
+            <img src="https://images.meesho.com/images/marketing/1680091570371.webp" alt="" />
+          </div>
+        </div>
+        
+      </div>
+      </div>
+
+      <div className="section_3">
+        <div className="viewall">
+          <img src="https://images.meesho.com/images/marketing/1680091753547.webp" alt="" />
+        </div>
+
+        <div className="essentials_section">
+          <div className="essentials_card">
+            <img src="https://images.meesho.com/images/marketing/1680091687255.webp" alt="" />
+            <img src="https://images.meesho.com/images/marketing/1680091726469.webp" alt="" />
+          </div>
+          <div className="essentials_card">
+            <img src="https://images.meesho.com/images/marketing/1680091703795.webp" alt="" />
+            <img src="https://images.meesho.com/images/marketing/1680091742705.webp" alt="" />
+          </div>
+          <div className="essentials_card">
+            <img src="https://images.meesho.com/images/marketing/1680091672842.webp" alt="" />
+            <img src="https://images.meesho.com/images/marketing/1680091714965.webp" alt="" />
+          </div>
         </div>
       </div>
     </div>
