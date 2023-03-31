@@ -11,7 +11,6 @@
 "email": "uttamkr5599@gmail.com",
 "password": "uttam",
 "age": 25,
-"key": 5599,
 "location": "chirkunda"
 }
 
