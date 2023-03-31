@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     width: 70%;
+    border-radius: 5px;
     margin: auto;
     
     .section_1_div_1{
@@ -78,4 +79,110 @@
 
 
     
+}
+
+
+.section_2{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+    text-size-adjust: 100%;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    letter-spacing: 0.5px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    .hSGhxw {
+        width: 70%;
+        margin: auto;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    .sctn-line {
+        width: 22%;
+        height: 1px;
+        background: rgb(247, 168, 202);
+    }
+}
+
+
+
+.section_2_layout{
+width: 70%;
+margin: auto;
+margin-top: 40px;
+margin-bottom: 20px;
+.section_2_Card{
+    background-image: url("https://images.meesho.com/images/marketing/1680091595756.webp");
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    .section_2_woman_sotre{
+        margin-top: 80px;
+        padding: 20px;
+        img{
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .section_2_man_and_kids{
+        display: flex;
+         margin-top: 150px;
+         padding: 20px;
+    }
+}
+}
+
+.section_3{
+    background-image: url("https://images.meesho.com/images/marketing/1680091656896.webp");
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 60px;
+    justify-content: space-around;
+    margin-top: 60px;
+    border-radius: 5px;
+
+    .viewall{
+        margin-top: 180px;
+    }
+
+    .essentials_section{
+        display: flex;
+        margin-top: 20px;
+
+        .essentials_card{
+            margin: auto;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+    }
 }
