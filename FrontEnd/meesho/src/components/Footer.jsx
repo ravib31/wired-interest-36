@@ -40,7 +40,7 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export default function LargeWithLogoLeft() {
+export default function Footer() {
   const iconImg=useBreakpointValue({base:"none",md:"block"})
   return (
     <Box
