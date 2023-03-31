@@ -50,6 +50,7 @@ export default function SignIn() {
                     isClosable: true,
                 })
             })
+            console.log("username")
     }
 
     return (
