@@ -27,9 +27,22 @@ import {
   ChevronRightIcon,
   Search2Icon,
 } from "@chakra-ui/icons";
+import { CgProfile } from "react-icons/cg";
+import {AiOutlineShoppingCart} from "react-icons/ai";
+import {useDispatch, useSelector} from "react-redux";
+import {Nav,Container,NavDropdown} from "react-bootstrap";
+import {LinkContainer} from "react-router-bootstrap"
 
 export default function WithSubnavigation1() {
   const { isOpen, onToggle } = useDisclosure();
+  const iconImg = useBreakpointValue({ base: "none", md: "block" });
+  // const userLogin = useSelector(state => state.userLogin)
+  // const {data} = userLogin;
+  // const dispatch = useDispatch();
+
+  // const logoutHandler = () =>{
+  //   console.log("Logout")
+  // }
 
   return (
     <Box>
@@ -43,11 +56,13 @@ export default function WithSubnavigation1() {
         borderStyle={"solid"}
         borderColor={useColorModeValue("gray.200", "gray.900")}
         align={"center"}
+        alignItems="center"
       >
         <Flex
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
           display={{ base: "flex", md: "none" }}
+          
         >
           <IconButton
             onClick={onToggle}
@@ -60,53 +75,87 @@ export default function WithSubnavigation1() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Box w={"50px"}>
-            <Image objectFit={"cover"} src={logo} />
+            <Image display={iconImg} objectFit={"cover"} src={logo} />
           </Box>
 
-          <Box class="searchIcon" paddingLeft={"20px"} paddingRight={"20px"}>
+          <Box
+            display={"flex"}
+            alignItems="center"
+            class="searchIcon"
+            paddingLeft={{base:"20px",md:"5rem"}}
+            paddingRight={"20px"}
+          >
             <Search2Icon />
           </Box>
-          <Box className="searchbox">
+          <Box display={"flex"} alignItems="center" className="searchbox">
             <Input
               placeholder="Try Saree, Kurti or Search by Product Code"
               width="400px"
             />
           </Box>
-
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
-            <DesktopNav />
-          </Flex>
         </Flex>
-
+        <Flex display={{ base: "none", md: "flex" }} mr={10}>
+          <DesktopNav />
+        </Flex>
         <Stack
           flex={{ base: 1, md: 0 }}
           justify={"flex-end"}
           direction={"row"}
-          spacing={6}
+          spacing={10}
+          alignItems="center"
         >
-          <Button
+          <Box
             as={"a"}
-            fontSize={"sm"}
+            fontSize={"2xl"}
             fontWeight={400}
             variant={"link"}
-            href={"#"}
+            href={"SignIn"}
           >
-            Sign In
-          </Button>
-          <Button
+            {/* Sign In */}
+            <CgProfile />
+          </Box>
+
+
+
+{/* {data ?(
+  <NavDropdown title={data.username}>
+    <LinkContainer to="/profile">
+      <NavDropdown.Item>
+        Profile
+      </NavDropdown.Item>
+    </LinkContainer>
+      <NavDropdown.Item onClick={logoutHandler}>
+        Logout
+      </NavDropdown.Item>
+  </NavDropdown>):(<LinkContainer to="login">
+    
+      <i className="CgProfile"></i>
+      signin
+  </LinkContainer>
+)} */}
+
+
+
+
+
+          {/* <Box>
+          <p>Admin</p>
+          </Box> */}
+          <Box
             as={"a"}
             display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
+            fontSize={"2xl"}
             fontWeight={600}
-            color={"white"}
-            bg={"pink.400"}
+            color={"black"}
+            // bg={"pink.400"}
             href={"#"}
             _hover={{
               bg: "pink.300",
             }}
           >
-            Sign Up
-          </Button>
+            {/* Sign Up */}
+            <AiOutlineShoppingCart/>
+          </Box>
         </Stack>
       </Flex>
 
@@ -123,7 +172,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Stack direction={"row"} spacing={10} justify="flex-end">
+    <Stack direction={"row"} spacing={10}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
