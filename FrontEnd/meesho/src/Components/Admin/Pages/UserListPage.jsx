@@ -1,17 +1,22 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import axios from "axios"
-
-const getUserList = () =>{
-  axios.get(`localhost:4500/user/Adminuserget`)
-  .then((res)=>console.log(res.data))
-  .catch((err)=>console.log(err))
-}
+import { shallowEqual, useDispatch, useSelector } from "react-redux";
+import { get_user_list } from '../Redux/AdminRedux/action';
+import { store } from '../Redux/store';
+import SingleUser from './SingleUser';
 
 export const UserListPage = () => {
-  useEffect(()=>{
-getUserList()
-  },[])
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(get_user_list)
+  }, [])
+  const {User , isLoading ,isError} = useSelector((store)=>{return { User : store.Users, isLoading: store.isLoading, isError:store.isError}})
+  console.log("User",User)
+
   return (
-    <div>UserListPage</div>
+    <div>
+      <h1>User List</h1>
+      {User.map((el)=>(<SingleUser key={el._id} {...el} /> ))}
+    </div>
   )
 }
