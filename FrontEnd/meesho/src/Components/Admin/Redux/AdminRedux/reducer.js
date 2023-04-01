@@ -13,7 +13,8 @@ const initalState = {
     Products: [],
     Users: [],
     Order: [],
-    SingleUser:[]
+    SingleUser:[],
+    SingleUserOrder : []
 }
 
 export const reducer = (state = initalState, {type, payload}) => {
@@ -48,10 +49,11 @@ export const reducer = (state = initalState, {type, payload}) => {
                 Products: payload
             }
             case GET_SINGLEUSERS_SUCCESS:{
-                console.log("payload",payload)
+                // console.log("payload",payload)
                 return {...state,
                 isLoading:false,
-                SingleUser:payload
+                SingleUser:payload,
+                SingleUserOrder:payload.order.OrderedItems
             }
             }
         default:
