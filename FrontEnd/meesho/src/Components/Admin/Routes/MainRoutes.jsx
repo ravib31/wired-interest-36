@@ -18,7 +18,6 @@ const MainRoutes = () => {
                 <Route path='/adminhome' element={<AdminHomepage />} />
                 <Route path='/userlist' element={<UserListPage />} />
                 <Route path='/userlist/:id' element={<SingleUserOrderPage />} />
-                <Route path='/single' element={<SingleUserOrderPage />} />
                 <Route path='/productlist' element={<ProductList />} />
              </Routes>
         </div>

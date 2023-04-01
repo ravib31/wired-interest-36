@@ -4,5 +4,5 @@ const dotenv = require("dotenv")
 dotenv.config();
 
 
-const connection = mongoose.connect(process.env.MONGOURL)
+const connection = mongoose.connect(process.env.url)
 module.exports = { connection }

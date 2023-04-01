@@ -6,12 +6,12 @@ import {
   Text,
   Stack,
   Button,
-  Link,
   Badge,
   useColorModeValue,
   HStack,
   VStack,
 } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 export default function SingleUser({ _id, age, email, location, order, type, username }) {
   return (
@@ -102,7 +102,7 @@ export default function SingleUser({ _id, age, email, location, order, type, use
             _focus={{
               bg: 'gray.200',
             }}>
-            Order List
+            <Link to={`/userlist/${_id}`}> Order List</Link>
           </Button>
           <Button
             flex={1}

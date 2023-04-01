@@ -25,7 +25,7 @@ export const UserListPage = () => {
       <div className='container' >
         {User.map((el) => (
         <div className='item' >
-        <SingleUser  key={el.id} {...el} />
+        <SingleUser  key={el._id} {...el} />
         </div>
         ))}
       </div>
