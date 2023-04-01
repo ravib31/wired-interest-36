@@ -3,7 +3,8 @@ import {
     FAILURE,
     GET_PRODUCT_SUCCESS,
     GET_USERS_SUCCESS,
-    GET_ORDER_LIST
+    GET_ORDER_LIST,
+    GET_SINGLEUSERS_SUCCESS
 } from "./actionTypes";
 
 const initalState = {
@@ -11,12 +12,48 @@ const initalState = {
     isError: false,
     Products: [],
     Users: [],
-    Order: []
+    Order: [],
+    SingleUser:[]
 }
 
 export const reducer = (state = initalState, {type, payload}) => {
     switch (type) {
-
+        case REQUEST:
+            return {
+                ...state,
+                isLoading: true
+            }
+        case FAILURE:
+            return {
+                ...state,
+                isLoading: false,
+                isError: true
+            }
+        case GET_USERS_SUCCESS:
+            return {
+                ...state,
+                isLoading: false,
+                Users: payload
+            }
+        case GET_ORDER_LIST:
+            return {
+                ...state,
+                isLoading: false,
+                Order: payload
+            }
+        case GET_PRODUCT_SUCCESS:
+            return {
+                ...state,
+                isLoading: false,
+                Products: payload
+            }
+            case GET_SINGLEUSERS_SUCCESS:{
+                console.log("payload",payload)
+                return {...state,
+                isLoading:false,
+                SingleUser:payload
+            }
+            }
         default:
             return state
     }
