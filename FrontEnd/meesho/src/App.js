@@ -1,5 +1,5 @@
 import "./App.css"
-import MainRoutes from "./Components/Admin/Routes/MainRoutes";
+import MainRoutes from "./components/Routes/MainRoutes";
 
 function App() {
     return (<div className="App">
