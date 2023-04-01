@@ -71,7 +71,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = (props) => {
 };
 
 const SingleUserOrderPage = () => {
-    const {id} = request.param()
+    // const {id} = request.param()
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(get_singleuserdetails)
