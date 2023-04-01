@@ -1,3 +1,7 @@
+
+import "./App.css"
+import MainRoutes from "./components/Routes/MainRoutes";
+
 import "./App.css";
 // import AdminSidebar from "./Components/Admin/Components/AdminSidebar";
 // import SingleUser from "./Components/Admin/Pages/SingleUser";
@@ -8,6 +12,7 @@ import "./App.css";
 // import SignIn from "./components/SignIn";
 // import SignUp from "./Components/SignUp";
 import HomePage from "./components/HomePage.jsx"
+
 
 function App() {
     return (<div className="App">
