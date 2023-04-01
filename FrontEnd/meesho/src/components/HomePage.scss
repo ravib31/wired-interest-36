@@ -186,3 +186,85 @@ margin-bottom: 20px;
         }
     }
 }
+
+
+.section_4{
+    background-image: url("https://images.meesho.com/images/marketing/1680091855132.jpg");
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 60px;
+    justify-content: space-around;
+    margin-top: 60px;
+    border-radius: 5px;
+
+    .viewall{
+        margin-top: 200px;
+    }
+
+    .essentials_section{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 80px;
+
+        .essentials_card{
+            margin: auto;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+    }
+}
+
+.section_5{
+    background-image: url("https://images.meesho.com/images/pow/downloadBannerDesktop.webp");
+    width: 70%;
+    margin: auto;
+
+    .section_5_inner_div{
+        // border: 1px solid red;
+        width: 60%;
+        align-items:center;
+        text-align: end;
+
+        h2{
+            color: rgb(85, 133, 248);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            font-family: 'Radio Canada', sans-serif;
+            margin: 0px 0px 16px;
+            padding: 0px;
+        }
+
+        h1{
+            color: rgb(244, 51, 151);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+            font-family: 'Radio Canada', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .download{
+            display: flex;
+            margin: auto;
+            // justify-content:flex-end;
+        div{
+            display: flex;
+            background: rgb(0, 0, 0);
+            border-radius: 4px;
+            margin-left: 12px;
+            cursor: pointer;
+            padding: 6px 25px;
+            width: 180px;
+            height: 48px;
+        }
+    }
+    }
+}
