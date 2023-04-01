@@ -4,18 +4,13 @@ const dotenv = require("dotenv");
 const { auth } = require("./auth")
 const { connection } = require("./config/db");
 const { productRouter } = require("./routes/products.routes");
-const { userRouter } = require("./user.routes")
+const { userRouter } = require("./routes/user.routes")
 const app = express()
-app.use(express.json()) //middleware
-
-
-app.use("/products", productRouter)
-
-app.use(express.json())
+app.use(express.json()) 
 app.use(cors())
-
+app.use("/products", productRouter)
 app.use("/user", userRouter)
-app.use(auth)
+//app.use(auth)
 
 
 
