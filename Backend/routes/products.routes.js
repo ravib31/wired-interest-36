@@ -13,7 +13,7 @@ productRouter.get("/" , async (req, res) => {
         const data = await ProductModel.find(category)
         console.log(data)
 
-        res.status(200).send({"msg" : "All Products Available"})  
+        res.status(200).send(data)  
     } catch (error) {
       res.status(400).send({"msg" : error.message}) 
     }
