@@ -25,7 +25,7 @@ import {
 import { useEffect } from 'react'
 import axios from "axios"
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
-import { get_singleuserdetails } from '../Redux/AdminRedux/action';
+import { get_singleuserdetails, request } from '../Redux/AdminRedux/action';
 import { store } from '../Redux/store';
 import { OrderTable } from './OrderTable';
 
@@ -71,6 +71,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = (props) => {
 };
 
 const SingleUserOrderPage = () => {
+    const {id} = request.param()
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(get_singleuserdetails)
