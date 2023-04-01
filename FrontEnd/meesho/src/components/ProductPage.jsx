@@ -4,7 +4,7 @@ function ProductPage() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/product')
+    axios.get('http://localhost:8085/product')
       .then(response => {
         setProducts(response.data);
       })
@@ -14,7 +14,7 @@ function ProductPage() {
   }, []);
 
   return (
-    <div>
+    <div >
       <h1>Product Page</h1>
       {products.map(product => (
         <div key={product.id}>
