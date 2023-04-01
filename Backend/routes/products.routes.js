@@ -27,6 +27,7 @@ productRouter.post("/add" , async(req, res) => {
     try {
         const data = new ProductModel(req.body)
         await data.save()
+        // res.send(data)
         res.status(200).send({"msg" : "Product Added"})
     } catch (error) {
         res.status(400).send({"msg" : error.message})

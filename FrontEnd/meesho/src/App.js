@@ -11,11 +11,14 @@ import HomePage from "./components/HomePage.jsx"
 
 function App() {
     return (<div className="App">
+
         {/* <AdminSidebar /> */}
        {/* <SignUp /> */}
        {/* <SignIn /> */}
       <HomePage/>
       
+
+      <MainRoutes />
     </div>);
 }
 
