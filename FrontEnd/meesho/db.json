@@ -1,7 +1,7 @@
 {
  "product" : [
   {
-<<<<<<< HEAD
+
     "imageURL": "https://images.meesho.com/images/products/6798867/ce0d4_400.webp",
     "itemName": "Princess Elegant Bracelet & Bangles",
     "category": "Women",
@@ -107,7 +107,6 @@
     "category": "Women",
     "price": 231,
     "deliveryStatus": "Free Delivery",
-=======
     "id": 1,
     "sc-pyfCe href": "https://www.meesho.com/mekhala-chador-cotton-saree-with-blouse/p/2xa1zf",
     "productImg": "https://images.meesho.com/images/products/176828811/qp6qh_400.webp",
@@ -139,12 +138,10 @@
     "title": "Women Rayon A-line Embroidered Mustard Kurti",
     "price": "₹226",
     "sc-gswNZR 4": "₹254",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.9,
     "reviews": "44 Reviews"
   },
   {
-<<<<<<< HEAD
     "imageURL": "https://images.meesho.com/images/products/234780719/vkwvx_400.webp",
     "itemName": "Pretty Comfy Kids Girls Lehanga Cholis",
     "category": "Kids",
@@ -277,7 +274,6 @@
     "category": "Women",
     "price": 229,
     "deliveryStatus": "Free Delivery",
-=======
     "id": 4,
     "sc-pyfCe href": "https://www.meesho.com/aishani-petite-sarees/p/1rxtd2",
     "productImg": "https://images.meesho.com/images/products/107393510/5u970_400.webp",
@@ -285,12 +281,10 @@
     "title": "Aishani Petite Sarees",
     "price": "₹548",
     "sc-gswNZR 4": "₹608",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.8,
     "reviews": "393 Reviews"
   },
   {
-<<<<<<< HEAD
     "imageURL": "https://images.meesho.com/images/products/147393142/yr0ak_400.webp",
     "itemName": "Urbane Latest Women Dresses",
     "category": "Women",
@@ -379,7 +373,6 @@
     "price": 176,
     "deliverytime": "23h : 00m : 09s",
     "deliveryStatus": "Free Delivery",
-=======
     "id": 5,
     "sc-pyfCe href": "https://www.meesho.com/georgette-lace-border-saree-with-blouse/p/dvye0",
     "productImg": "https://images.meesho.com/images/products/23325912/53f0f_400.webp",
@@ -387,12 +380,10 @@
     "title": "Georgette Lace border Saree with blouse",
     "price": "₹193",
     "sc-gswNZR 4": "₹198",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.6,
     "reviews": "866 Reviews"
   },
   {
-<<<<<<< HEAD
     "imageURL": "https://images.meesho.com/images/products/246800571/lkwxs_400.webp",
     "itemName": "Pretty Kids Musical Toys",
     "category": "Kids",
@@ -434,7 +425,6 @@
     "category": "Women",
     "price": 382,
     "deliveryStatus": "Free Delivery",
-=======
     "id": 6,
     "sc-pyfCe href": "https://www.meesho.com/etp-satin-silk-sarees/p/t6vv8",
     "productImg": "https://images.meesho.com/images/products/49030100/j1zmg_400.webp",
@@ -442,12 +432,10 @@
     "title": "ETP  satin silk  Sarees",
     "price": "₹269",
     "sc-gswNZR 4": "₹277",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.9,
     "reviews": "68 Reviews"
   },
   {
-<<<<<<< HEAD
     "imageURL": "https://images.meesho.com/images/products/109815260/m9uyz_400.webp",
     "itemName": "Shimmering Elegant Mangalsutras",
     "category": "Women",
@@ -462,7 +450,7 @@
     "category": "Women",
     "price": 197,
     "deliveryStatus": "Free Delivery",
-=======
+
     "id": 7,
     "sc-pyfCe href": "https://www.meesho.com/trendy-voguish-kurtis/p/49rr5s",
     "productImg": "https://images.meesho.com/images/products/258276160/nzcy2_400.webp",
@@ -470,12 +458,10 @@
     "title": "Trendy Voguish Kurtis",
     "price": "₹298",
     "sc-gswNZR 4": "onwards",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.7,
     "reviews": "102 Reviews"
   },
   {
-<<<<<<< HEAD
     "imageURL": "https://images.meesho.com/images/products/169860772/2u1av_400.webp",
     "itemName": "Feminine Fusion Jewellery Sets",
     "category": "Women",
@@ -509,7 +495,6 @@
     "category": "Men",
     "price": 121,
     "deliveryStatus": "Delivery ₹65",
-=======
     "id": 8,
     "sc-pyfCe href": "https://www.meesho.com/kashvi-voguish-kurtis/p/1dq9h0",
     "productImg": "https://images.meesho.com/images/products/83526516/92m7c_400.webp",
@@ -601,12 +586,10 @@
     "title": "Kashvi Refined Kurtis",
     "price": "₹180",
     "sc-gswNZR 4": "onwards",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.9,
     "reviews": "198 Reviews"
   },
   {
-<<<<<<< HEAD
     "imageURL": "https://images.meesho.com/images/products/175738592/ivf8r_400.webp",
     "itemName": "New Collections Of Face Cream",
     "category": "Others",
@@ -635,7 +618,6 @@
     "itemName": "Agile Trendy Girls Frocks & Dresses",
     "category": "Women",
     "price": 303,
-=======
     "id": 16,
     "sc-pyfCe href": "https://www.meesho.com/abhisarika-superior-kurtis/p/1afr2x",
     "productImg": "https://images.meesho.com/images/products/77997273/mahtf_400.webp",
@@ -643,7 +625,6 @@
     "title": "Abhisarika Superior Kurtis",
     "price": "₹569",
     "sc-gswNZR 4": "onwards",
->>>>>>> b70aa517509327a29b45b4e4f564be388d055baa
     "rating": 3.8,
     "reviews": "6881 Reviews"
   },
