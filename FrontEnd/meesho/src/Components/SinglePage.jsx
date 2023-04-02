@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
+import {StarIcon} from '@chakra-ui/icons'
 
-//import React from 'react';
 import {
   Box,
   Heading,
@@ -58,16 +58,17 @@ export const BlogAuthor = (props) => {
 const SinglePage = () => {
   const { id } = useParams();
   const [data, setData] = useState({});
+  const navigate = useNavigate();
   const getData = (id) => {
     axios
 
-      .get(`http://localhost:8085/product/${id}`)
+      .get(`http://localhost:8080/product/${id}`)
       .then((res) => {
-        setData(res.data[0]);
-        console.log(res);
+        setData(res.data);
+        
       })
       .catch((err) => {
-        console.log(err);
+       
       });
   };
 
@@ -77,7 +78,7 @@ const SinglePage = () => {
   }, [id]);
 
   return (
-    <Container maxW={"6xl"} p="12" border="1px solid red">
+    <Container maxW={"6xl"} p="12" border="1px solid gray">
       {/* <Heading as="h1">Stories by Chakra Templates</Heading> */}
       <Box
         marginTop={{ base: "1", sm: "5" }}
@@ -105,7 +106,7 @@ const SinglePage = () => {
                 // border="1px solid red"
                 width="60%"
                 borderRadius="lg"
-                src={data.productImg}
+                src={data?.productImg}
                 alt="some good alt text"
                 objectFit="contain"
               />
@@ -125,20 +126,43 @@ const SinglePage = () => {
           <BlogTags tags={["new"]} />
           <Heading as="h1" size="lg">
             {/* <Link textDecoration="none" _hover={{ textDecoration: 'none' }}> */}
-            {data.title}
+            {data?.title}
             {/* </Link> */}
           </Heading>
-          <Text>{data.rating}</Text>
-          <Text>{data.reviews}</Text>
-          <Text>₹{data.price}</Text>
+          <Text
+            bgColor="green"
+            width="60px"
+            borderRadius="10px"
+            color="white"
+            textAlign="center"
+            fontSize="20px"
+            marginTop="5px"
+            
+          >
+            {data?.rating}<span style={{width:"70px"}}><StarIcon/></span>
+          </Text>
+          <Text color="gray">{data?.reviews}</Text>
+          <Heading as="h1" size="md">
+            {data?.offerprice}
+          </Heading>
+          <Text>{data?.mainprice}</Text>
+          <Text>{data?.offer}</Text>
           {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
           <br />
           <br />
           <br />
 
           <Stack direction="row" spacing={4}>
-            <Button w="300px" colorScheme="orange" variant="solid">
+            <Button onClick={()=>{}}
+              w="300px"
+              colorScheme="gray"
+              variant="solid"
+              border="1px solid gray"
+            >
               Add To Cart
+            </Button>
+            <Button onClick={()=>navigate("/checkout")} w="300px" colorScheme="pink" variant="solid">
+              Buy Now
             </Button>
           </Stack>
         </Box>
