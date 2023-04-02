@@ -6,20 +6,109 @@ const jwt = require("jsonwebtoken")
 
 productRouter.get("/" , async (req, res) => {
 
-    const category = req.query
-    console.log(category)
+    // const category = req.query
+    // console.log(category)
+    const qSort = req.query
+    console.log(qSort.sort)
+
+    let q;
+    if(qSort.sort === "asc"){
+        q=1
+    } else if(qSort.sort === "desc") {
+        q=-1
+    }
 
     try {
-        const data = await ProductModel.find(category)
-        console.log(data)
+        if(req.query.price && req.query.rating && req.query.reviews){
 
-        res.status(200).send(data)  
+            const data = await ProductModel.find({$and: [{$: req.query.price},{$: req.query.rating}, {$: req.query.reviews}]})
+            console.log(data) 
+            res.send(data)
+
+        } else if(req.query.price && req.query.rating){
+
+            const data = await ProductModel.find({$and: [{$: req.query.price},{$: req.query.rating}]})
+            console.log(data) 
+
+        } else if(req.query.price && req.query.reviews){
+
+            const data = await ProductModel.find({$and: [{$: req.query.price},{$: req.query.reviews}]})
+            console.log(data) 
+
+        } else if(req.query.rating && req.query.reviews){
+
+            const data = await ProductModel.find({$and: [{$: req.query.rating},{$: req.query.reviews}]})
+            console.log(data) 
+
+        } else if(req.query.price){
+
+            const data = await ProductModel.find({price: {$gt: req.query.price}}).sort({"price" : q})
+            console.log(data) 
+            res.send(data)
+
+        } else if(req.query.rating){
+
+            const data = await ProductModel.find({rating: {$gt: req.query.rating}}).sort({"rating" : q})
+            console.log(data)
+            res.send(data)
+ 
+
+        } else if(req.query.reviews){
+
+            const data = await ProductModel.find().sort(req.query.reviews)
+            console.log(data) 
+            res.send(data)
+
+
+        } else if(req.query.category){
+
+            const data = await ProductModel.find({"category": req.query.category})
+           console.log(data)
+           res.send(data)
+
+        } else {
+            const data = await ProductModel.find()
+            console.log(data)
+            res.send(data)
+        }
+        // res.status(200).send({"msg" : "All data"})  
     } catch (error) {
       res.status(400).send({"msg" : error.message}) 
     }
    
 })
 
+
+productRouter.get("/sort", async(req, res) => {
+    const qSort = req.query
+    console.log(qSort.sort)
+
+    let q;
+    if(qSort.sort === "asc"){
+        q=1
+    } else if(qSort.sort === "desc") {
+        q=-1
+    }
+    try {
+        const data = await ProductModel.find().sort({"price": q})
+        res.status(200).send(data)  
+    } catch (error) {
+        res.status(400).send({"msg" : error.message})   
+    }
+    
+})
+
+productRouter.get("/search", async(req, res) => {
+    const query = req.query
+    console.log(query)
+
+    try {
+        const data = await ProductModel.find({itemName: {$regex: query.itemName, $options: 'i'}})
+        res.status(200).send(data)
+    } catch (error) {
+        res.status(400).send({"msg": error.message})
+    }
+})
 
 
 productRouter.post("/add" , async(req, res) => {

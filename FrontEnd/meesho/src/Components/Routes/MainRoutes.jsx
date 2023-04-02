@@ -8,6 +8,7 @@ import SingleUserOrderPage from '../Admin/Pages/SingleUserOrderPage'
 import { AdminHomepage } from '../Admin/Pages/AdminHomepage'
 import ProductList from '../Admin/Pages/ProductList'
 import HomePage from '../Page/HomePage'
+import { CartPage } from '../Page/CartPage'
 
 
 const MainRoutes = () => {
@@ -22,6 +23,7 @@ const MainRoutes = () => {
                 <Route path='/userlist' element={<UserListPage />} />
                 <Route path='/userlist/:id' element={<SingleUserOrderPage />} />
                 <Route path='/productlist' element={<ProductList />} />
+                <Route path='/cart' element={<CartPage />} />
              </Routes>
         </div>
     )
