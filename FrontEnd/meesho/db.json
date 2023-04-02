@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "product": [
     {
       "id": 1,
@@ -147,3 +148,1066 @@
     }
   ]
 }
+=======
+ "product" : [
+  {
+
+    "imageURL": "https://images.meesho.com/images/products/6798867/ce0d4_400.webp",
+    "itemName": "Princess Elegant Bracelet & Bangles",
+    "category": "Women",
+    "price": 192,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "53794 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/220307398/tbpeb_400.webp",
+    "itemName": "Unique Kids Girls Kids Girls Clogs",
+    "category": "Kids",
+    "price": 500,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.3,
+    "reviews": "68 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/165502857/titsn_400.webp",
+    "itemName": "Banita Sensational Kurtis",
+    "category": "Women",
+    "price": 398,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.1,
+    "reviews": "3830 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/202829110/fcej9_400.webp",
+    "itemName": "Cutiepie Funky Boys Top & Bottom Sets",
+    "category": "Men",
+    "price": 220,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "111 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/61242490/lzwlv_400.webp",
+    "itemName": "Stylish Partywear Men Tshirts",
+    "category": "Men",
+    "price": 279,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "12874 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/150219155/2o3nr_400.webp",
+    "itemName": "Trendy Kids Remote Control Toys",
+    "category": "Kids",
+    "price": 367,
+    "deliverytime": "43% off",
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "330 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/179824990/t9y1z_400.webp",
+    "itemName": "Classy Graceful Women Women Trousers",
+    "category": "Women",
+    "price": 286,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.1,
+    "reviews": "1532 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/96878512/fz38g_400.webp",
+    "itemName": "Casual Unique Men Tracksuits",
+    "category": "Men",
+    "price": 872,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "802 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/42624882/vnxbr_400.webp",
+    "itemName": "Trendy Fashionista Women Kurti",
+    "category": "Women",
+    "price": 300,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.2,
+    "reviews": "10734 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/153581954/kdfux_400.webp",
+    "itemName": "Trendy Girls Sports Shoes",
+    "category": "Kids",
+    "price": 374,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.4,
+    "reviews": "1036 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/168200625/egtat_400.webp",
+    "itemName": "Fancy Ravishing Women Tshirts",
+    "category": "Women",
+    "price": 181,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "1828 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/252029330/ditxf_400.webp",
+    "itemName": "Urbane Latest Women Tshirts",
+    "category": "Women",
+    "price": 231,
+    "deliveryStatus": "Free Delivery",
+    "id": 1,
+    "sc-pyfCe href": "https://www.meesho.com/mekhala-chador-cotton-saree-with-blouse/p/2xa1zf",
+    "productImg": "https://images.meesho.com/images/products/176828811/qp6qh_400.webp",
+    "sc-gswNZR": "+11 More",
+    "title": "Mekhala Chador Cotton Saree With Blouse",
+    "price": "₹475",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.8,
+    "reviews": "393 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 2,
+    "sc-pyfCe href": "https://www.meesho.com/myra-pretty-kurtis/p/1xkao5",
+    "productImg": "https://images.meesho.com/images/products/116840453/bdypx_400.webp",
+    "sc-gswNZR": "+3 More",
+    "title": "Myra Pretty Kurtis",
+    "price": "₹167",
+    "sc-gswNZR 4": "₹174",
+    "rating": 3.8,
+    "reviews": "11932 Reviews",
+    "sc-gswNZR 8": "4% off"
+  },
+  {
+    "id": 3,
+    "sc-pyfCe href": "https://www.meesho.com/women-rayon-aline-embroidered-mustard-kurti/p/8fuht",
+    "productImg": "https://images.meesho.com/images/products/14176289/069d9_400.webp",
+    "sc-gswNZR": "+5 More",
+    "title": "Women Rayon A-line Embroidered Mustard Kurti",
+    "price": "₹226",
+    "sc-gswNZR 4": "₹254",
+    "rating": 3.9,
+    "reviews": "44 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/234780719/vkwvx_400.webp",
+    "itemName": "Pretty Comfy Kids Girls Lehanga Cholis",
+    "category": "Kids",
+    "price": 343,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "806 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/235752097/rws6i_400.webp",
+    "itemName": "Fashionate Elegant Kids Girls Sandals",
+    "category": "Kids",
+    "price": 494,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.3,
+    "reviews": "37 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/132621733/ks8om_400.webp",
+    "itemName": "Bluetooth Headphones & Earphones",
+    "category": "Audio",
+    "price": 249,
+    "deliveryStatus": "Delivery ₹90",
+    "rating": 3.9,
+    "reviews": "473 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/178995835/iouon_400.webp",
+    "itemName": "others Cases & Covers",
+    "category": "Others",
+    "price": 160,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "171 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/188888603/9b33p_400.webp",
+    "itemName": "Styles Trendy Women Socks",
+    "category": "Women",
+    "price": 182,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.3,
+    "reviews": "282 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/238848987/dlxer_400.webp",
+    "itemName": "Pretty Fancy Kids Girls Casual Shoes",
+    "category": "Kids",
+    "price": 507,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.2,
+    "reviews": "175 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/245343265/punno_400.webp",
+    "itemName": "Trendy Designer Women Tops & Tunics",
+    "category": "Women",
+    "price": 172,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "141 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/189939315/hwyib_400.webp",
+    "itemName": "Pretty Ravishing Men Tshirts",
+    "category": "Men",
+    "price": 107,
+    "deliveryStatus": "Delivery ₹65",
+    "rating": 3.9,
+    "reviews": "4655 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/92825609/odltg_400.webp",
+    "itemName": "CasualModern Men Wallets",
+    "category": "Men",
+    "price": 137,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "505 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/181774793/yjp3l_400.webp",
+    "itemName": "Cutiepie Trendy Kids Girls Casual Shoes",
+    "category": "Kids",
+    "price": 457,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "393 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/143931890/bw80i_400.webp",
+    "itemName": "Urbane Ravishing Women Top & bottom Set",
+    "category": "Women",
+    "price": 494,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "108 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/52119402/31ogu_400.webp",
+    "itemName": "Jivika Alluring Sarees",
+    "category": "Women",
+    "price": 493,
+    "deliverytime": "23h : 21m : 29s",
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.7,
+    "reviews": "1392 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/168841426/soxpc_400.webp",
+    "itemName": "Pretty Elegant Women Tops & Tunics",
+    "category": "Women",
+    "price": 199,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "2040 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/155402958/gjdut_400.webp",
+    "itemName": "Fancy Kids Remote Control Toys",
+    "category": "Kids",
+    "price": 550,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.7,
+    "reviews": "385 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/59326353/gnj54_400.webp",
+    "itemName": "Designer Modern Women Palazzos",
+    "category": "Women",
+    "price": 229,
+    "deliveryStatus": "Free Delivery",
+    "id": 4,
+    "sc-pyfCe href": "https://www.meesho.com/aishani-petite-sarees/p/1rxtd2",
+    "productImg": "https://images.meesho.com/images/products/107393510/5u970_400.webp",
+    "sc-gswNZR": "+5 More",
+    "title": "Aishani Petite Sarees",
+    "price": "₹548",
+    "sc-gswNZR 4": "₹608",
+    "rating": 3.8,
+    "reviews": "393 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/147393142/yr0ak_400.webp",
+    "itemName": "Urbane Latest Women Dresses",
+    "category": "Women",
+    "price": 257,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "754 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/24912124/63299_400.webp",
+    "itemName": "Fancy Sensational Men Shirts",
+    "category": "Men",
+    "price": 318,
+    "deliverytime": "23h : 21m : 29s",
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "4576 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/223592001/pqaki_400.webp",
+    "itemName": "Fuzzy Elegant Kids Girls Flip Flops",
+    "category": "Kids",
+    "price": 369,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.2,
+    "reviews": "77 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/34394052/ljkmy_400.webp",
+    "itemName": "Fancy Fashionable Women Top & Bottom Sets",
+    "category": "Women",
+    "price": 266,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.7,
+    "reviews": "16860 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/112745375/6p2dt_400.webp",
+    "itemName": "Classic Partywear Women Jeans",
+    "category": "Women",
+    "price": 391,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "11703 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/47717942/62xy8_400.webp",
+    "itemName": "Ravishing Fancy Women Slingbags",
+    "category": "Women",
+    "price": 178,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "445 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/92849103/ypljj_400.webp",
+    "itemName": "Unique Chew Toys for Dogs",
+    "category": "Others",
+    "price": 188,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.3,
+    "reviews": "332 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/191475750/budih_400.webp",
+    "itemName": "Bluetooth Headphones & Earphones",
+    "category": "Others",
+    "price": 455,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "12629 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/157832852/eokfk_400.webp",
+    "itemName": "Bluetooth Headphones & Earphones",
+    "category": "Others",
+    "price": 195,
+    "deliveryStatus": "Delivery ₹90",
+    "rating": 3.9,
+    "reviews": "7132 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/156849407/p9fjg_400.webp",
+    "itemName": "Unique Graceful Women Flipflops & Slippers",
+    "category": "Women",
+    "price": 176,
+    "deliverytime": "23h : 00m : 09s",
+    "deliveryStatus": "Free Delivery",
+    "id": 5,
+    "sc-pyfCe href": "https://www.meesho.com/georgette-lace-border-saree-with-blouse/p/dvye0",
+    "productImg": "https://images.meesho.com/images/products/23325912/53f0f_400.webp",
+    "sc-gswNZR": "+15 More",
+    "title": "Georgette Lace border Saree with blouse",
+    "price": "₹193",
+    "sc-gswNZR 4": "₹198",
+    "rating": 3.6,
+    "reviews": "866 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/246800571/lkwxs_400.webp",
+    "itemName": "Pretty Kids Musical Toys",
+    "category": "Kids",
+    "price": 615,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.1,
+    "reviews": "19 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/155947044/jxe1g_400.webp",
+    "itemName": "Sassy Women Bra",
+    "category": "Women",
+    "price": 227,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.7,
+    "reviews": "3284 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/189282839/juca5_400.webp",
+    "itemName": "Pretty Glamorous Men Tshirts",
+    "category": "Men",
+    "price": 174,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.6,
+    "reviews": "388 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/145442791/y0zrj_400.webp",
+    "itemName": "Allure Bejeweled Women Jewellery Set",
+    "category": "Women",
+    "price": 257,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "1157 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/171497336/d7fe9_400.webp",
+    "itemName": "Stylish Girls Juttis & Mojaris",
+    "category": "Women",
+    "price": 382,
+    "deliveryStatus": "Free Delivery",
+    "id": 6,
+    "sc-pyfCe href": "https://www.meesho.com/etp-satin-silk-sarees/p/t6vv8",
+    "productImg": "https://images.meesho.com/images/products/49030100/j1zmg_400.webp",
+    "sc-gswNZR": "+6 More",
+    "title": "ETP  satin silk  Sarees",
+    "price": "₹269",
+    "sc-gswNZR 4": "₹277",
+    "rating": 3.9,
+    "reviews": "68 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/109815260/m9uyz_400.webp",
+    "itemName": "Shimmering Elegant Mangalsutras",
+    "category": "Women",
+    "price": 108,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.2,
+    "reviews": "20 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/224611323/c5dhb_400.webp",
+    "itemName": "Ravishing Classy Women Slingbags",
+    "category": "Women",
+    "price": 197,
+    "deliveryStatus": "Free Delivery",
+
+    "id": 7,
+    "sc-pyfCe href": "https://www.meesho.com/trendy-voguish-kurtis/p/49rr5s",
+    "productImg": "https://images.meesho.com/images/products/258276160/nzcy2_400.webp",
+    "sc-gswNZR": "+3 More",
+    "title": "Trendy Voguish Kurtis",
+    "price": "₹298",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.7,
+    "reviews": "102 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/169860772/2u1av_400.webp",
+    "itemName": "Feminine Fusion Jewellery Sets",
+    "category": "Women",
+    "price": 188,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.2,
+    "reviews": "3779 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/171876385/0kdxt_400.webp",
+    "itemName": "Unique Chew Toys for Dogs",
+    "category": "Dogs",
+    "price": 163,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.3,
+    "reviews": "56 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/139148992/zvjaa_400.webp",
+    "itemName": "Elite Fancy Jewellery Sets",
+    "category": "Women",
+    "price": 110,
+    "deliverytime": "23h : 00m : 09s",
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.6,
+    "reviews": "1409 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/188395672/olf0j_400.webp",
+    "itemName": "Trendy Elegant Men Tshirts",
+    "category": "Men",
+    "price": 121,
+    "deliveryStatus": "Delivery ₹65",
+    "id": 8,
+    "sc-pyfCe href": "https://www.meesho.com/kashvi-voguish-kurtis/p/1dq9h0",
+    "productImg": "https://images.meesho.com/images/products/83526516/92m7c_400.webp",
+    "sc-gswNZR": "",
+    "title": "Kashvi Voguish Kurtis",
+    "price": "₹273",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.7,
+    "reviews": "1356 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 9,
+    "sc-pyfCe href": "https://www.meesho.com/aagyeyi-refined-kurtis/p/14o4dz",
+    "productImg": "https://images.meesho.com/images/products/68310071/397mx_400.webp",
+    "sc-gswNZR": "+7 More",
+    "title": "Aagyeyi Refined Kurtis",
+    "price": "₹282",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.7,
+    "reviews": "11524 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 10,
+    "sc-pyfCe href": "https://www.meesho.com/trendy-sensational-sarees/p/erw42",
+    "productImg": "https://images.meesho.com/images/products/24815954/15ce3_400.webp",
+    "sc-gswNZR": "+8 More",
+    "title": "Trendy Sensational Sarees",
+    "price": "₹335",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.8,
+    "reviews": "3954 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 11,
+    "sc-pyfCe href": "https://www.meesho.com/jivika-net-sarees/p/2fb3v0",
+    "productImg": "https://images.meesho.com/images/products/146644812/icczi_400.webp",
+    "sc-gswNZR": "+17 More",
+    "title": "Jivika Net Sarees",
+    "price": "₹238",
+    "sc-gswNZR 4": "₹263",
+    "rating": 3.8,
+    "reviews": "22497 Reviews",
+    "sc-gswNZR 8": "10% off"
+  },
+  {
+    "id": 12,
+    "sc-pyfCe href": "https://www.meesho.com/adrika-refined-kurtis/p/14mnyo",
+    "productImg": "https://images.meesho.com/images/products/68242128/xgeq9_400.webp",
+    "sc-gswNZR": "+6 More",
+    "title": "Adrika Refined Kurtis",
+    "price": "₹295",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.7,
+    "reviews": "79098 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 13,
+    "sc-pyfCe href": "https://www.meesho.com/charvi-fashionable-kurtis/p/1no4np",
+    "productImg": "https://images.meesho.com/images/products/100223125/egtru_400.webp",
+    "sc-gswNZR": "+2 More",
+    "title": "Charvi Fashionable Kurtis",
+    "price": "₹283",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.7,
+    "reviews": "5015 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 14,
+    "sc-pyfCe href": "https://www.meesho.com/festive-special-trendy-graceful-kurtis/p/141xo3",
+    "productImg": "https://images.meesho.com/images/products/67274931/zaqik_400.webp",
+    "sc-gswNZR": "+8 More",
+    "title": "Festive special: Trendy Graceful Kurtis",
+    "price": "₹352",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.8,
+    "reviews": "50117 Reviews",
+    "sc-gswNZR 8": ""
+  },
+  {
+    "id": 15,
+    "sc-pyfCe href": "https://www.meesho.com/kashvi-refined-kurtis/p/18aw3o",
+    "productImg": "https://images.meesho.com/images/products/74411268/meysu_400.webp",
+    "sc-gswNZR": "+8 More",
+    "title": "Kashvi Refined Kurtis",
+    "price": "₹180",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.9,
+    "reviews": "198 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/175738592/ivf8r_400.webp",
+    "itemName": "New Collections Of Face Cream",
+    "category": "Others",
+    "price": 176,
+    "rating": 3.7,
+    "reviews": "435 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/77090515/s0puo_400.webp",
+    "itemName": "Graceful Chew Toys for Dogs",
+    "category": "Others",
+    "price": 228,
+    "rating": 4.3,
+    "reviews": "503 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/68738673/zvwq6_400.webp",
+    "itemName": "Fancy Blackhead Remover Cream",
+    "category": "Others",
+    "price": 89,
+    "rating": 3.9,
+    "reviews": "421 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/56458339/yx3x3_400.webp",
+    "itemName": "Agile Trendy Girls Frocks & Dresses",
+    "category": "Women",
+    "price": 303,
+    "id": 16,
+    "sc-pyfCe href": "https://www.meesho.com/abhisarika-superior-kurtis/p/1afr2x",
+    "productImg": "https://images.meesho.com/images/products/77997273/mahtf_400.webp",
+    "sc-gswNZR": "+8 More",
+    "title": "Abhisarika Superior Kurtis",
+    "price": "₹569",
+    "sc-gswNZR 4": "onwards",
+    "rating": 3.8,
+    "reviews": "6881 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/77092835/cju7y_400.webp",
+    "itemName": "Comfy Latest Men Shirt Fabric",
+    "category": "Men",
+    "price": 278,
+    "rating": 3.8,
+    "reviews": "193 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/81322286/inyxl_400.webp",
+    "itemName": "Classy Chew Toys for Dogs",
+    "category": "Others",
+    "price": 260,
+    "rating": 4.1,
+    "reviews": "92 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/238836025/ahz0v_400.webp",
+    "itemName": "Cables",
+    "category": "Others",
+    "price": 178,
+    "rating": 3.8,
+    "reviews": "12 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/245400865/o3nrg_400.webp",
+    "itemName": "Modern Women Heels",
+    "category": "Women",
+    "price": 385,
+    "rating": 4.7,
+    "reviews": "7 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/87374565/oj66j_400.webp",
+    "itemName": "Classy Fashionista Women Jeans",
+    "category": "Women",
+    "price": 396,
+    "rating": 3.7,
+    "reviews": "428 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/209352778/y7fm9_400.webp",
+    "itemName": "Fabulous Stylish Kids Girls Casual Shoes",
+    "category": "Kids",
+    "price": 457,
+    "rating": 3.8,
+    "reviews": "145 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/174060892/ojs2x_400.webp",
+    "itemName": "Comfy Fashionista Men Tshirts",
+    "category": "Men",
+    "price": 268,
+    "rating": 3.8,
+    "reviews": "392 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/186583952/ogl2m_400.webp",
+    "itemName": "Vivo y22 Cases & Covers",
+    "category": "Others",
+    "price": 182,
+    "rating": 4.1,
+    "reviews": "15 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/166932199/jk5bm_400.webp",
+    "itemName": "Styles Modern Women Sunglasses",
+    "category": "Women",
+    "price": 142,
+    "rating": 4.1,
+    "reviews": "104 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/81291915/2uler_400.webp",
+    "itemName": "Classic Chew Toys for Dogs",
+    "category": "Others",
+    "price": 268,
+    "rating": 4.4,
+    "reviews": "195 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/99058841/5jlqw_400.webp",
+    "itemName": "Modern Women Casual Shoes",
+    "category": "Women",
+    "price": 518,
+    "deliverytime": "22h : 59m : 33s",
+    "rating": 4,
+    "reviews": "3027 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/112815209/zrg0k_400.webp",
+    "itemName": "Relaxed Attractive Women Flipflops & Slippers",
+    "category": "Women",
+    "price": 155,
+    "rating": 3.9,
+    "reviews": "921 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/71802374/yxrzn_400.webp",
+    "itemName": "Festive special: Aakarsha Petite Kurtis",
+    "category": "Women",
+    "price": 312,
+    "deliverStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "10604 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/127938144/q2deb_400.webp",
+    "itemName": "Aakarsha Sensational Kurtis",
+    "category": "Women",
+    "price": 178,
+    "deliverStatus": "Free Delivery",
+    "rating": 3.7,
+    "reviews": "30097 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/168223075/ypfva_400.webp",
+    "itemName": "Abhisarika Drishya Sarees",
+    "category": "Women",
+    "price": 460,
+    "deliverStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "552 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/162170012/trtzs_400.webp",
+    "itemName": "Soft Silk Sarees",
+    "category": "Women",
+    "price": 416,
+    "deliverStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "10288 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/20393758/htrro_400.webp",
+    "itemName": "Aakarsha Ensemble Kurtis",
+    "category": "Women",
+    "price": 322,
+    "deliverStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "56759 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/62566151/6bt8f_400.webp",
+    "itemName": "Charvi Banarasi Silk Sarees",
+    "category": "Women",
+    "price": 554,
+    "deliverStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "14918 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/60877542/quzdp_400.webp",
+    "itemName": "Fab Women Art Silk Sarees",
+    "category": "Women",
+    "price": 274,
+    "deliverStatus": "Free Delivery",
+    "rating": 3.7,
+    "reviews": "31465 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/209836667/dinia_400.webp",
+    "itemName": "Half and half Georgette Saree With Blouse",
+    "category": "Women",
+    "price": 193,
+    "deliveryStatus": "Delivery ₹64",
+    "srating": 3.8,
+    "reviews": "644 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/180260830/oidrt_400.webp",
+    "itemName": "NEW SOFT NAIRA SILK WITH PALLU",
+    "category": "Women",
+    "price": 703,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "785 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/152597956/cyuvd_400.webp",
+    "itemName": "Banita Sensational Kurtis",
+    "category": "Women",
+    "price": 304,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "7207 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/161852182/nx6ao_400.webp",
+    "itemName": "Charvi Superior Kurtis",
+    "category": "Women",
+    "price": 200,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "7581 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/104543586/njwe2_400.webp",
+    "itemName": "Aishani Attractive Sarees",
+    "category": "Women",
+    "price": 587,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.3,
+    "reviews": "67 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/1853963/1_400.webp",
+    "itemName": "Georgette Printed Sarees",
+    "category": "Women",
+    "price": 266,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "26607 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/116952674/vz8pb_400.webp",
+    "itemName": "Net Sarees",
+    "category": "Women",
+    "price": 162,
+    "deliveryStatus": "Delivery ₹73",
+    "rating": 3.8,
+    "reviews": "36288 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/70490539/1ivsf_400.webp",
+    "itemName": "Jivika Graceful Sarees",
+    "category": "Women",
+    "price": 336,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "411 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/73027191/my46j_400.webp",
+    "itemName": "Kashvi Fashionable Women Kurta Sets",
+    "category": "Women",
+    "price": 373,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "21082 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/186041241/fqklt_400.webp",
+    "itemName": "Chitrarekha Voguish Kurtis",
+    "category": "Women",
+    "price": 245,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "71 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/237798869/jjyma_400.webp",
+    "itemName": "Aagyeyi Voguish Kurtis",
+    "category": "Women",
+    "price": 545,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4.1,
+    "reviews": "33 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/135478190/uxuqu_400.webp",
+    "itemName": "Adrika Superior Kurtis",
+    "category": "Women",
+    "price": 227,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "8192 Reviews"
+  },
+  {
+    "imageURL0": "https://images.meesho.com/images/products/194815279/dydgz_400.webp",
+    "itemName": "Trendy Sensational Kurtis",
+    "category": "Women",
+    "price": 169,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "2383 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/242007556/gd6pc_400.webp",
+    "itemName": "Trendy Graceful Women Kurta Sets",
+    "category": "Women",
+    "price": 310,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "85 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/50455814/o6grq_400.webp",
+    "itemName": "Aagam Voguish Kurtis",
+    "category": "Women",
+    "price": 277,
+    "deliveryStatus": "Delivery ₹80",
+    "rating": 3.7,
+    "reviews": "59631 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/115432991/zczxs_400.webp",
+    "itemName": "Chitrarekha Attractive Kurtis",
+    "category": "Women",
+    "price": 305,
+    "deliveryStatus": "Delivery ₹40",
+    "rating": 4.5,
+    "reviews": "3553 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/244379169/oocbr_400.webp",
+    "itemName": "Aagyeyi Alluring Kurtis",
+    "category": "Women",
+    "price": 665,
+    "deliveryStatus": "Delivery ₹70",
+    "rating": 4,
+    "reviews": "19 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/149177191/l0lhl_400.webp",
+    "itemName": "Aakarsha Graceful Kurtis",
+    "category": "Women",
+    "price": 183,
+    "deliveryStatus": "Delivery ₹50",
+    "rating": 4.3,
+    "reviews": "14120 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/229708931/swfru_400.webp",
+    "itemName": "Trendy Women Blouses",
+    "category": "Women",
+    "price": 298,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "656 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/244375032/rjgwj_400.webp",
+    "itemName": "Trendy Attractive Kurtis",
+    "category": "Women",
+    "price": 665,
+    "deliveryStatus": "Delivery ₹100",
+    "rating": 3.9,
+    "reviews": "80 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/173712258/ogszc_400.webp",
+    "itemName": "Gorgeous Fashionable Women Dupattas",
+    "category": "Women",
+    "price": 256,
+    "deliveryStatus": "Delivery ₹63",
+    "rating": 3.7,
+    "reviews": "5993 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/111183034/beyvg_400.webp",
+    "itemName": "Cotton Tassels and Latkans Saree With Blouse",
+    "category": "Women",
+    "price": 301,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.6,
+    "reviews": "17386 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/170976386/xint8_400.webp",
+    "itemName": "Kurtis & Kurtas (Women Ethnic Wear)",
+    "category": "Women",
+    "price": 457,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "8 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/137607308/wvhfr_400.webp",
+    "itemName": "NEW FENCY GEORGETTE CUT WORK SAREE",
+    "category": "Women",
+    "price": 373,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "16854 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/174449949/inppr_400.webp",
+    "itemName": "Kashvi Superior Kurtis",
+    "category": "Women",
+    "price": 193,
+    "deliveryStatus": "Free Delivery",
+    "rating": 4,
+    "reviews": "6651 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/244361166/5egcr_400.webp",
+    "itemName": "Chitrarekha Fashionable Kurtis",
+    "category": "Women",
+    "price": 660,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.5,
+    "reviews": "9 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/116218749/etrau_400.webp",
+    "itemName": "Aishani Attractive Kurtis",
+    "category": "Women",
+    "price": 236,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.9,
+    "reviews": "17482 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/229791085/f8onx_400.webp",
+    "itemName": "Kashvi Pretty Sarees",
+    "category": "Women",
+    "price": 190,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "148 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/131288118/qsy6k_400.webp",
+    "itemName": "Aagyeyi Petite Sarees",
+    "category": "Women",
+    "price": 768,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.8,
+    "reviews": "924 Reviews"
+  },
+  {
+    "imageURL": "https://images.meesho.com/images/products/31690036/434fd_400.webp",
+    "itemName": "Bandhani Cotton Brocade Saree",
+    "category": "Women",
+    "price": 279,
+    "deliveryStatus": "Free Delivery",
+    "rating": 3.6,
+    "reviews": "10736 Reviews"
+  }
+]
+}
+>>>>>>> 0f775de245967eef927756ef833b8bd0a4936780

@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.scss";
+import Product from "./Product";
 
 export default function HomePage() {
   return (
@@ -198,6 +199,8 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+
+      <Product/>
     </div>
   );
 }

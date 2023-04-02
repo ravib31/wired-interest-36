@@ -1,0 +1,10 @@
+.product_page{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    // grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    max-width: 100%;
+}
