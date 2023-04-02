@@ -1,4 +1,154 @@
 {
+<<<<<<< HEAD
+  "product": [
+    {
+      "id": 1,
+      "sc-pyfCe href": "https://www.meesho.com/mekhala-chador-cotton-saree-with-blouse/p/2xa1zf",
+      "productImg": "https://images.meesho.com/images/products/176828811/qp6qh_400.webp",
+      "sc-gswNZR": "+11 More",
+      "title": "Mekhala Chador Cotton Saree With Blouse",
+      "offerprice": "Offer price ₹475",
+      "mainprice": "₹174",
+      "delivery": "onwards",
+      "rating": 3.8,
+      "reviews": "393 Reviews",
+      "offer": "5% off"
+    },
+    {
+      "id": 2,
+      "sc-pyfCe href": "https://www.meesho.com/myra-pretty-kurtis/p/1xkao5",
+      "productImg": "https://images.meesho.com/images/products/116840453/bdypx_400.webp",
+      "sc-gswNZR": "+3 More",
+      "title": "Myra Pretty Kurtis",
+      "offerprice": "Offer price ₹475",
+      "mainprice": "₹174",
+      "rating": 3.8,
+      "reviews": "11932 Reviews",
+      "offer": "4% off"
+    },
+    {
+      "id": 3,
+      "sc-pyfCe href": "https://www.meesho.com/women-rayon-aline-embroidered-mustard-kurti/p/8fuht",
+      "productImg": "https://images.meesho.com/images/products/14176289/069d9_400.webp",
+      "sc-gswNZR": "+5 More",
+      "title": "Women Rayon A-line Embroidered Mustard Kurti",
+      "offerprice": "Offer price ₹226",
+      "mainprice": "₹254",
+      "rating": 3.9,
+      "reviews": "1524 Reviews",
+      "offer": "11% off"
+    },
+    {
+      "id": 4,
+      "sc-pyfCe href": "https://www.meesho.com/aishani-petite-sarees/p/1rxtd2",
+      "productImg": "https://images.meesho.com/images/products/107393510/5u970_400.webp",
+      "sc-gswNZR": "+5 More",
+      "title": "Aishani Petite Sarees",
+      "offerprice": "Offer price ₹548",
+      "mainprice": "₹608",
+      "rating": 3.8,
+      "reviews": "73 Reviews",
+      "offer": "10% off"
+    },
+    {
+      "id": 5,
+      "sc-pyfCe href": "https://www.meesho.com/georgette-lace-border-saree-with-blouse/p/dvye0",
+      "productImg": "https://images.meesho.com/images/products/23325912/53f0f_400.webp",
+      "sc-gswNZR": "+15 More",
+      "title": "Georgette Lace border Saree with blouse",
+      "offerprice": "₹193",
+      "mainprice": "₹198",
+      "rating": 3.6,
+      "reviews": "38690 Reviews",
+      "offer": "3% off"
+    },
+    {
+      "id": 6,
+      "sc-pyfCe href": "https://www.meesho.com/etp-satin-silk-sarees/p/t6vv8",
+      "productImg": "https://images.meesho.com/images/products/49030100/j1zmg_400.webp",
+      "sc-gswNZR": "+6 More",
+      "title": "ETP  satin silk  Sarees",
+      "offerprice": "₹269",
+      "mainprice": "₹277",
+      "rating": 3.9,
+      "reviews": "54446 Reviews",
+      "offer": "6% off"
+    },
+    {
+      "id": 7,
+      "sc-pyfCe href": "https://www.meesho.com/trendy-voguish-kurtis/p/49rr5s",
+      "productImg": "https://images.meesho.com/images/products/258276160/nzcy2_400.webp",
+      "sc-gswNZR": "+3 More",
+      "title": "Trendy Voguish Kurtis",
+      "offerprice": "₹298",
+      "mainprice": "onwards",
+      "rating": 3.7,
+      "reviews": "Supplier",
+      "offer": "10% off"
+    },
+    {
+      "id": 8,
+      "sc-pyfCe href": "https://www.meesho.com/kashvi-voguish-kurtis/p/1dq9h0",
+      "productImg": "https://images.meesho.com/images/products/83526516/92m7c_400.webp",
+      "sc-gswNZR": "",
+      "title": "Kashvi Voguish Kurtis",
+      "offerprice": "₹273",
+      "mainprice": "onwards",
+      "rating": 3.7,
+      "reviews": "1356 Reviews",
+      "offer": "10% off"
+    },
+    {
+      "id": 9,
+      "sc-pyfCe href": "https://www.meesho.com/aagyeyi-refined-kurtis/p/14o4dz",
+      "productImg": "https://images.meesho.com/images/products/68310071/397mx_400.webp",
+      "sc-gswNZR": "+7 More",
+      "title": "Aagyeyi Refined Kurtis",
+      "offerprice": "₹282",
+      "mainprice": "onwards",
+      "rating": 3.7,
+      "reviews": "11524 Reviews",
+      "offer": "10% off"
+    },
+    {
+      "id": 10,
+      "sc-pyfCe href": "https://www.meesho.com/trendy-sensational-sarees/p/erw42",
+      "productImg": "https://images.meesho.com/images/products/24815954/15ce3_400.webp",
+      "sc-gswNZR": "+8 More",
+      "title": "Trendy Sensational Sarees",
+      "offerprice": "₹335",
+      "mainprice": "onwards",
+      "rating": 3.8,
+      "reviews": "3954 Reviews",
+      "offer": "10% off"
+    },
+    {
+      "id": 11,
+      "sc-pyfCe href": "https://www.meesho.com/jivika-net-sarees/p/2fb3v0",
+      "productImg": "https://images.meesho.com/images/products/146644812/icczi_400.webp",
+      "sc-gswNZR": "+17 More",
+      "title": "Jivika Net Sarees",
+      "offerprice": "₹238",
+      "mainprice": "₹263",
+      "rating": 3.8,
+      "reviews": "22497 Reviews",
+      "offer": "10% off"
+    },
+    {
+      "id": 12,
+      "sc-pyfCe href": "https://www.meesho.com/adrika-refined-kurtis/p/14mnyo",
+      "productImg": "https://images.meesho.com/images/products/68242128/xgeq9_400.webp",
+      "sc-gswNZR": "+6 More",
+      "title": "Adrika Refined Kurtis",
+      "offerprice": "₹295",
+      "mainprice": "onwards",
+      "rating": 3.7,
+      "reviews": "79098 Reviews",
+      "offer": "10% off"
+    }
+  ]
+}
+=======
  "product" : [
   {
 
@@ -1060,3 +1210,4 @@
   }
 ]
 }
+>>>>>>> 0f775de245967eef927756ef833b8bd0a4936780

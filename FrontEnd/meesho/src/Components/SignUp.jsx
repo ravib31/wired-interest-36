@@ -37,7 +37,9 @@ export default function SignUp() {
             username, password, email, age, location, type: "USER", order: { "OrderedItems": [] }
         }
         axios.post(`http://localhost:4500/user/register`, payload)
-            .then((res) =>{  toast({
+            .then((res) =>{  
+                localStorage.setItem("name", username);
+                toast({
                 title: 'Register Successful.',
                 description: "We welcome you to MeeshoMart Community.",
                 status: 'success',

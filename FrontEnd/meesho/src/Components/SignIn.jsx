@@ -33,7 +33,9 @@ export default function SignIn() {
         }
         axios.post(`http://localhost:4500/user/login`, payload)
             .then((res) => {
-                localStorage.setItem("token", res.data.token); toast({
+                localStorage.setItem("token", res.data.token);
+                localStorage.setItem("name", username);
+                toast({
                     title: 'Login Successful.',
                     description: "We are redirecting you to the product page.",
                     status: 'success',

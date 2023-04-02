@@ -33,7 +33,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {Nav,Container,NavDropdown} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap"
 
-export default function WithSubnavigation1() {
+export default function Navbar1() {
   const { isOpen, onToggle } = useDisclosure();
   const iconImg = useBreakpointValue({ base: "none", md: "block" });
   // const userLogin = useSelector(state => state.userLogin)
@@ -43,6 +43,7 @@ export default function WithSubnavigation1() {
   // const logoutHandler = () =>{
   //   console.log("Logout")
   // }
+  const username=localStorage.getItem("name") || null 
 
   return (
     <Box>
@@ -112,7 +113,7 @@ export default function WithSubnavigation1() {
             href={"SignIn"}
           >
             {/* Sign In */}
-            <CgProfile />
+            {username?username:<CgProfile />}
           </Box>
 
 
