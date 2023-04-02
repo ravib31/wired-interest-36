@@ -15,20 +15,22 @@ app.use(express.json())
 app.use(cors())
 app.use("/products", productRouter)
 app.use("/user", userRouter)
-app.use("cart", CartproductRouter)
-app.use("order" , orderRouter)
+app.use("/cart", CartproductRouter)
+app.use("/order" , orderRouter)
 app.use(auth)
 
 
 
-app.listen(4500, async () => {
+app.listen(process.env.PORT, async () => {
     try {
         await connection
-        console.log("Server running on port 4500")
+        console.log({"msg" : "Connected to MongoDb"})
 
     } catch (error) {
         console.log({"msg": "Cannot to MongoDb"})
     }
+
+    console.log(`Server running on port ${process.env.PORT}`)
 })
 
 
