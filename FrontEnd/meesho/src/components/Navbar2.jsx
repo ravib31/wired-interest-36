@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { CloseIcon, ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons";
 
-export default function WithSubnavigation2() {
+export default function Navbar2() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
