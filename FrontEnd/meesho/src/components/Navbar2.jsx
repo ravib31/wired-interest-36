@@ -2,8 +2,6 @@ import {
   Box,
   Flex,
   Text,
-  IconButton,
-  Button,
   Stack,
   Collapse,
   Icon,
@@ -12,10 +10,9 @@ import {
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
 } from "@chakra-ui/react";
-import { CloseIcon, ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons";
+import { ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons";
 
 export default function Navbar2() {
   const { isOpen, onToggle } = useDisclosure();

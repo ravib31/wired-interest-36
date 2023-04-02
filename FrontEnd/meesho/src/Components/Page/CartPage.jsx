@@ -1,6 +1,6 @@
 import React from 'react';
 import "../cart/cart.css"
-import { Box, Button, Flex, Text } from '@chakra-ui/react';
+import { Box, Button, Text } from '@chakra-ui/react';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink} from '@chakra-ui/react';
 import { Divider } from '@chakra-ui/react';
 import { InfoIcon,CloseIcon } from '@chakra-ui/icons';
