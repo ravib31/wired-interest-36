@@ -1,9 +1,11 @@
 
 import "./App.css"
-import MainRoutes from "./components/Routes/MainRoutes";
+
 
 import "./App.css";
-import HomePage from "./components/Page/HomePage";
+import HomePage from "./Components/Page/HomePage";
+import MainRoutes from "./Components/Routes/MainRoutes";
+
 // import AdminSidebar from "./Components/Admin/Components/AdminSidebar";
 // import SingleUser from "./Components/Admin/Pages/SingleUser";
 // import { Navbar1 } from "./components/Navbar1";
@@ -23,6 +25,7 @@ function App() {
       {/* <HomePage/> */}
       
 
+      {/* <HomePage /> */}
       <MainRoutes />
     </div>);
 }

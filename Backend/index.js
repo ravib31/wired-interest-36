@@ -20,7 +20,7 @@ app.use("/products", productRouter)
 app.use("/user", userRouter)
 app.use("/cart", CartproductRouter)
 app.use("/order" , orderRouter)
-app.use(auth)
+// app.use(auth)
 
 
 
