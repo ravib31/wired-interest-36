@@ -9,6 +9,7 @@ import { AdminHomepage } from '../Admin/Pages/AdminHomepage'
 import ProductList from '../Admin/Pages/ProductList'
 import HomePage from '../Page/HomePage'
 import WomanPage from '../Page/WomenPage'
+import Filter from '../Page/Filter'
 
 
 const MainRoutes = () => {
@@ -24,6 +25,7 @@ const MainRoutes = () => {
                 <Route path='/userlist/:id' element={<SingleUserOrderPage />} />
                 <Route path='/productlist' element={<ProductList />} />
                 <Route path='/womenpage' element={<WomanPage/>}/>
+                <Route path='/filter' element={<Filter/>}/>
              </Routes>
         </div>
     )

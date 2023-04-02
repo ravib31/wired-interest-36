@@ -7,7 +7,7 @@ function WomanPage() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/product?category=Women')
+    axios.get('http://localhost:4600/products?category=Women')
       .then(response => {
         setProducts(response.data);
         console.log(response.data);
