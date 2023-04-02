@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import "./Product.scss"
-import { Card, Image, CardBody, CardFooter ,Stack,Heading, Text, Divider, ButtonGroup, Button, Flex} from '@chakra-ui/react'
-import Filter from './Filter';
+import { Card, Image, CardBody, CardFooter ,Stack,Heading, Text, Divider, ButtonGroup, Button} from '@chakra-ui/react'
 
-function Product() {
+function WomanPage() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:4600/products')
+    axios.get('http://localhost:4600/products?category=Women')
       .then(response => {
         setProducts(response.data);
         console.log(response.data);
@@ -17,8 +16,6 @@ function Product() {
         console.error(error);
       });
   }, []);
-
-  
 
   return (
     // <div className='product_page'>
@@ -38,13 +35,10 @@ function Product() {
     //     </div>
     //   ))}
     // </div>
-    <div className="product_main" style={{display:Flex}}>
 
-      <div><Filter/></div>
-
-<div className='product_page'>
+    <div className='product_page'>
       {products.map(product => (
-        <Card maxW='sm' key={product._id}>
+        <Card maxW='sm'>
         <CardBody>
           <Image
             src={product.imageURL}
@@ -59,14 +53,6 @@ function Product() {
             <Text color='gray' fontSize='15'>
               {product.deliveryStatus}
             </Text>
-            <Stack>
-              <Text>
-                {`Rating : ${product.rating}`}
-              </Text>
-              <Text>
-                {product.reviews}
-              </Text>
-            </Stack>
           </Stack>
         </CardBody>
         <Divider />
@@ -84,10 +70,7 @@ function Product() {
       ))}
     </div>
 
-    </div>
-    
-
   );
 }
 
-export default Product;
+export default WomanPage;
