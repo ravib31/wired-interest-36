@@ -6,6 +6,10 @@ It is an E-commerce website where user can buy different varities of products ma
 Team Members:
 Ravi bhashkar,Uttam kumar shaw,Abhishek kumar singh,Soaib akhtar
 
+Tech Stack-
+1-Frontend - react-reduc,Chakra UI, HTML & CSS
+2-backend - MongoDb,Express,Node JS
+
 
 
 Deploy Link - https://642a6273ab8bc424be3e3f48--cool-sherbet-fa209e.netlify.app/
