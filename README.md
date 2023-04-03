@@ -5,3 +5,15 @@ It is an E-commerce website where user can buy different varities of products ma
 
 Team Members:
 Ravi bhashkar,Uttam kumar shaw,Abhishek kumar singh,Soaib akhtar
+
+
+
+Deploy Link - https://642a6273ab8bc424be3e3f48--cool-sherbet-fa209e.netlify.app/
+
+
+
+#Home Page-
+![Screenshot (3)](https://user-images.githubusercontent.com/107496019/229431236-8d94c6e4-f52b-4415-a992-10a7985a5226.png)
+
+
+#LoginPage-![Screenshot (4)](https://user-images.githubusercontent.com/107496019/229431317-7e90745a-c06f-4941-b26c-598fb53b7c49.png)
