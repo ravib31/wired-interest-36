@@ -9,7 +9,6 @@ import {
   Stack,
   Collapse,
   Icon,
-  Link,
   Popover,
   PopoverTrigger,
   PopoverContent,
@@ -20,6 +19,7 @@ import {
   Image,
   Input,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom"
 import {
   HamburgerIcon,
   CloseIcon,
@@ -28,10 +28,10 @@ import {
   Search2Icon,
 } from "@chakra-ui/icons";
 import { CgProfile } from "react-icons/cg";
-import {AiOutlineShoppingCart} from "react-icons/ai";
-import {useDispatch, useSelector} from "react-redux";
-import {Nav,Container,NavDropdown} from "react-bootstrap";
-import {LinkContainer} from "react-router-bootstrap"
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { useDispatch, useSelector } from "react-redux";
+import { Nav, Container, NavDropdown } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap"
 
 export default function Navbar1() {
   const { isOpen, onToggle } = useDisclosure();
@@ -43,7 +43,7 @@ export default function Navbar1() {
   // const logoutHandler = () =>{
   //   console.log("Logout")
   // }
-  const username=localStorage.getItem("name") || null 
+  const username = localStorage.getItem("name") || null
 
   return (
     <Box>
@@ -63,7 +63,7 @@ export default function Navbar1() {
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
           display={{ base: "flex", md: "none" }}
-          
+
         >
           <IconButton
             onClick={onToggle}
@@ -83,7 +83,7 @@ export default function Navbar1() {
             display={"flex"}
             alignItems="center"
             class="searchIcon"
-            paddingLeft={{base:"20px",md:"5rem"}}
+            paddingLeft={{ base: "20px", md: "5rem" }}
             paddingRight={"20px"}
           >
             <Search2Icon />
@@ -110,15 +110,15 @@ export default function Navbar1() {
             fontSize={"2xl"}
             fontWeight={400}
             variant={"link"}
-            href={"SignIn"}
+            href={"/signup"}
           >
             {/* Sign In */}
-            {username?username:<CgProfile />}
+            {username ? username : <CgProfile />}
           </Box>
 
 
 
-{/* {data ?(
+          {/* {data ?(
   <NavDropdown title={data.username}>
     <LinkContainer to="/profile">
       <NavDropdown.Item>
@@ -149,13 +149,15 @@ export default function Navbar1() {
             fontWeight={600}
             color={"black"}
             // bg={"pink.400"}
-            href={"#"}
+            href={"/signup"}
             _hover={{
               bg: "pink.300",
             }}
           >
             {/* Sign Up */}
-            <AiOutlineShoppingCart/>
+            {/* <Link to='/signup' ></Link> */}
+              <AiOutlineShoppingCart />
+              
           </Box>
         </Stack>
       </Flex>

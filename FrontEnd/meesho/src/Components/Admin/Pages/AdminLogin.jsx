@@ -31,7 +31,7 @@ export default function AdminLogin() {
         const payload = {
             username, password
         }
-        axios.post(`http://localhost:4500/user/login`, payload)
+        axios.post(`http://localhost:8080/user/login`, payload)
             .then((res) => {
                 localStorage.setItem("token", res.data.token); toast({
                     title: 'Login Successful.',

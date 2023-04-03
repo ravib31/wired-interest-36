@@ -14,7 +14,7 @@ export const UserListPage = () => {
   useEffect(() => {
     dispatch(get_user_list)
   }, [])
-  const { User, isLoading, isError } = useSelector((store) => { return { User: store.Users, isLoading: store.isLoading, isError: store.isError } })
+  const { User, isLoading, isError } = useSelector((store) => { return { User: store.AuthReducer.Users, isLoading: store.AuthReducer.isLoading, isError: store.AuthReducer.isError } })
   console.log("User", User)
 
   return (

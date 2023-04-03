@@ -81,7 +81,9 @@ const SingleUserOrderPage = () => {
     useEffect(() => {
         dispatch(get_singleuserdetails(id))
     }, [])
-    const { SingleUser, isLoading, isError, SingleUserOrder } = useSelector((store) => { return { SingleUser: store.SingleUser, isLoading: store.isLoading, isError: store.isError , SingleUserOrder:store.SingleUserOrder } })
+    const { SingleUser, isLoading, isError, SingleUserOrder } = useSelector((store) => { return { SingleUser: store.AuthReducer.SingleUser, isLoading: store.AuthReducer.isLoading, isError: store.AuthReducer.isError , SingleUserOrder:store.AuthReducer.SingleUserOrder } })
+
+    console.log("single user",SingleUser)
 
     if (isLoading) {
         return <h1>Loading... </h1>

@@ -58,7 +58,8 @@ userRouter.post("/login", async (req, res) => {
                                 "USER_ID": user._id
                             },
                             'evaluation'
-                        )
+                        ),
+                        "user":user
                     })
 
                 } else {
