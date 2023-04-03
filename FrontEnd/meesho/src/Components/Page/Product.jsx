@@ -8,7 +8,7 @@ function Product() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:4600/products')
+    axios.get('http://localhost:8080/products')
       .then(response => {
         setProducts(response.data);
         console.log(response.data);
@@ -40,7 +40,7 @@ function Product() {
     // </div>
     <div className="product_main" style={{display:Flex}}>
 
-      <div><Filter/></div>
+      {/* <div><Filter/></div> */}
 
 <div className='product_page'>
       {products.map(product => (
