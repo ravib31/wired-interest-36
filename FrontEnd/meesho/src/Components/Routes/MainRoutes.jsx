@@ -29,7 +29,7 @@ const MainRoutes = () => {
                 <Route path='/womenpage' element={<WomanPage/>}/>
                 <Route path='/filter' element={<Filter/>}/>
                 <Route path= '/cart' element={<CartPage />} />
-                {/* <Route path='/checkout' element={<Checkout />} /> */}
+                <Route path='/checkout' element={<Checkout />} />
              </Routes>
         </div>
     )
@@ -43,13 +43,4 @@ export default MainRoutes;
 
 
 
-
-{/* <Routes>
-        <Route path="/adminlogin" element={<AdminLogin />} />
-        <Route path="/adminhome" element={<AdminHomepage />} />
-        <Route path="/userlist" element={<UserListPage />} />
-        <Route path="/userlist/:id" element={<SingleUserOrderPage />} />
-        <Route path="/single" element={<SingleUserOrderPage />} />
-        <Route path="/productlist" element={<ProductList />} />
-      </Routes>  */}
 

@@ -76,7 +76,9 @@ export default function Navbar1() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Box w={"50px"}>
+            <Link to='/'>
             <Image display={iconImg} objectFit={"cover"} src={logo} />
+            </Link>
           </Box>
 
           <Box

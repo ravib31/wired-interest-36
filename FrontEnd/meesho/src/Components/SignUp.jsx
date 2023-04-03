@@ -38,7 +38,7 @@ export default function SignUp() {
         const payload = {
             username, password, email, age, location, type: "USER", order: { "OrderedItems": [] }
         }
-        axios.post(`http://localhost:4500/user/register`, payload)
+        axios.post(`http://localhost:8080/user/register`, payload)
             .then((res) => {
                 localStorage.setItem("name", username);
                 toast({
@@ -150,7 +150,7 @@ export default function SignUp() {
                                         _hover={
                                             { bg: '#D864A9' }
                                         }>
-                                        <Link to='/login'>
+                                        <Link to='/SignIn'>
                                             Already a user? SignIn
                                         </Link>
                                     </Button>

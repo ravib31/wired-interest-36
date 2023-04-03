@@ -17,14 +17,16 @@ import {
     InputRightElement,
     useToast
 } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { FiEye, FiEyeOff } from "react-icons/fi"
 import Navbar1 from './Navbar1';
 import Navbar2 from './Navbar2';
 import { useDispatch } from 'react-redux';
 import { login_success } from './Admin/Redux/UserRedux/action';
+import { useLocation, useNavigate } from 'react-router-dom'
 
 export default function SignIn() {
+    const navigate = useNavigate()
     const dispatch = useDispatch()
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
@@ -47,6 +49,7 @@ export default function SignIn() {
                     duration: 3000,
                     isClosable: true,
                 })
+                navigate('/')
             })
             .catch((error) => {
                 toast({

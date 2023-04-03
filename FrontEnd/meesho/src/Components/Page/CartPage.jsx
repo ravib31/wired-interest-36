@@ -57,7 +57,7 @@ useEffect(()=>{
 
       <Box id='cartsummary'>
         <Box id='cartitems'>
-          <Text style={{ marginTop: '20px', textAlign: 'left', marginLeft: '20px', fontSize: '20px' }}>Cart | <span>1 items</span></Text>
+          <Text style={{ marginTop: '20px', textAlign: 'left', marginLeft: '20px', fontSize: '20px' }}>Cart | <span>{cart.length} items</span></Text>
 
           
             
