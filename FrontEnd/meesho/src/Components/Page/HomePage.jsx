@@ -1,10 +1,16 @@
 import React from "react";
 import "./HomePage.scss";
 import Product from "./Product";
+import Navbar1 from "../Navbar1";
+import Navbar2 from "../Navbar2";
 
 export default function HomePage() {
   return (
     <div>
+      <div>
+        <Navbar1 />
+        <Navbar2 />
+      </div>
       <div className="section_1">
         <div className="section_1_div_1">
           <h1>Lowest Prices Best Quality Shopping</h1>
@@ -200,7 +206,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <Product/>
+      <Product />
     </div>
   );
 }

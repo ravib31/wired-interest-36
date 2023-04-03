@@ -5,6 +5,7 @@ import Navbar2 from "./Components/Navbar2";
 import Footer from "./Components/Footer";
 import HomePage from "./Components/Page/HomePage";
 import MainRoutes from "./Components/Routes/MainRoutes";
+import { CartPage } from "./Components/Page/CartPage";
 
 
 
@@ -12,10 +13,8 @@ import MainRoutes from "./Components/Routes/MainRoutes";
 function App() {
   return (
     <div className="App">
-      <Navbar1 />
-      <Navbar2 />
+      <CartPage />
       <MainRoutes />
-      <Footer />
     </div>
   );
 }

@@ -1,0 +1,6 @@
+export const REQUEST = "REQUEST";
+export const FAILURE = "FAILURE";
+export const USER_LOGIN_SUCCESS = "USER_LOGIN";
+export const USER_SINGUP_SUCCESS = "USER_SIGNUP";
+export const GET_PRODUCT_SUCCESS = "GET_PRODUCT_SUCCESS"
+export const ADD_TO_CART = "ADD_TO_CART"

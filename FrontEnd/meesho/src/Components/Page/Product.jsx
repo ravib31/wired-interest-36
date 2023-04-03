@@ -3,15 +3,23 @@ import axios from 'axios';
 import "./Product.scss"
 import { Card, Image, CardBody, CardFooter ,Stack,Heading, Text, Divider, ButtonGroup, Button, Flex} from '@chakra-ui/react'
 import Filter from './Filter';
+import { useDispatch } from 'react-redux';
+import { cart_add } from '../Admin/Redux/UserRedux/action';
 
 function Product() {
+  const dispatch = useDispatch()
   const [products, setProducts] = useState([]);
 
+  const handleCart = (product) =>{
+    dispatch(cart_add(product))
+    console.log("product",product)
+  }
+
   useEffect(() => {
-    axios.get('http://localhost:4600/products')
+    axios.get('http://localhost:8080/products')
       .then(response => {
         setProducts(response.data);
-        console.log(response.data);
+        //console.log(response.data);
       })
       .catch(error => {
         console.error(error);
@@ -75,7 +83,7 @@ function Product() {
             <Button variant='solid' colorScheme='pink'>
               Buy now
             </Button>
-            <Button variant='ghost' colorScheme='black'>
+            <Button onClick={()=>handleCart(product)} variant='ghost' colorScheme='black'>
               Add to cart
             </Button>
           </ButtonGroup>

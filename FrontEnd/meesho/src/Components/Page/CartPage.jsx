@@ -7,6 +7,7 @@ import { InfoIcon,CloseIcon } from '@chakra-ui/icons';
 import { Image } from '@chakra-ui/react'
 import { CartSide } from './CartSide';
 import { useNavigate } from 'react-router';
+import { useSelector } from 'react-redux';
 
 
 
@@ -22,6 +23,10 @@ const CartPage = () => {
     const handlecheckout = () => {
        navigate("/checkout")
     }
+
+   
+    const { Cart } = useSelector((store) => { return { Cart: store.UserReducer.Cart}})
+    console.log("cart",Cart);
 
   return (
     <>
