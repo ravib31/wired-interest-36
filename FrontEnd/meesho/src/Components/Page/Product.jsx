@@ -54,6 +54,7 @@ function Product() {
         <Card maxW='sm' key={product._id}>
         <CardBody>
           <Image
+           boxSize='300px'
             src={product.imageURL}
             alt='Green double couch with wooden legs'
             borderRadius='lg'

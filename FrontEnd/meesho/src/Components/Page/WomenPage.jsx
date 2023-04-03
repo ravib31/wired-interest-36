@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import "./Product.scss"
-import { Card, Image, CardBody, CardFooter ,Stack,Heading, Text, Divider, ButtonGroup, Button} from '@chakra-ui/react'
+import { Card, Image, CardBody, CardFooter, Stack, Heading, Text, Divider, ButtonGroup, Button } from '@chakra-ui/react'
+import Navbar1 from "../Navbar1"
+import Navbar2 from "../Navbar2"
 
 function WomanPage() {
   const [products, setProducts] = useState([]);
@@ -36,12 +38,24 @@ function WomanPage() {
     //   ))}
     // </div>
 
+    <div>
+
+
+<div>
+<Navbar1 />
+<Navbar2 />
+</div>
+
+<div>
+
+
     <div className='product_page'>
       {products.map(product => (
         <Card maxW='sm'>
         <CardBody>
           <Image
             src={product.imageURL}
+            boxSize='300px'
             alt='Green double couch with wooden legs'
             borderRadius='lg'
           />
@@ -69,6 +83,11 @@ function WomanPage() {
       </Card>
       ))}
     </div>
+    
+</div>
+
+
+</div>
 
   );
 }
