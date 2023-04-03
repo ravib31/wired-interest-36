@@ -155,9 +155,9 @@ export default function Navbar1() {
             }}
           >
             {/* Sign Up */}
-            {/* <Link to='/signup' ></Link> */}
+            <Link to='/cart' >
               <AiOutlineShoppingCart />
-              
+              </Link>
           </Box>
         </Stack>
       </Flex>

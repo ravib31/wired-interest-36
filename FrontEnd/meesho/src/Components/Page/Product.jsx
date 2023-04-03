@@ -11,8 +11,7 @@ function Product() {
   const [products, setProducts] = useState([]);
 
   const handleCart = (product) =>{
-    dispatch(cart_add(product))
-    console.log("product",product)
+   dispatch(cart_add(product))
   }
 
   useEffect(() => {
